@@ -1,0 +1,23 @@
+package br.unipe.java.unidade1;
+
+import java.util.Scanner;
+
+public class MusicaCerveja {
+
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		System.out.println("Informe quantas cervejas tem no freezer");
+		
+		int x = leitor.nextInt();
+		
+		while( x > 0 ){
+		System.out.println(x +" cervejas no freezer");
+		System.out.println("Pego uma garrafa, passo para frente");
+		x = x-1;
+		System.out.println("Agora são "+x+" cervejas no freezer" );
+		System.out.println();
+		}
+	}
+
+}
